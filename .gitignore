@@ -13,6 +13,12 @@
 !assets/lara-semfundo-hero.png
 !assets/logo-dra-lara-symbol.png
 !assets/logo-dra-lara-symbol-header.png
+!sitemap.xml
+!scripts/
+!scripts/generate-sitemap.mjs
+!.github/
+!.github/workflows/
+!.github/workflows/sitemap.yml
 
 .vercel
 .env*
