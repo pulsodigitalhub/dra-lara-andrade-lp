@@ -17,9 +17,11 @@
 !sitemap.xsl
 !scripts/
 !scripts/generate-sitemap.mjs
+!scripts/check-google-ads-compliance.mjs
 !.github/
 !.github/workflows/
 !.github/workflows/sitemap.yml
+!.github/workflows/compliance.yml
 
 .vercel
 .env*
