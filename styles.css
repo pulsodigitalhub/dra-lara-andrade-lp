@@ -1134,7 +1134,7 @@ p {
 
 .location-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
   justify-content: center;
 }
@@ -1470,11 +1470,6 @@ body.modal-open {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .location-grid article:last-child {
-    width: min(100%, calc((100% - 16px) / 2));
-    grid-column: 1 / -1;
-    justify-self: center;
-  }
 }
 
 @media (max-width: 720px) {
@@ -1657,10 +1652,6 @@ body.modal-open {
     grid-template-columns: 1fr;
   }
 
-  .location-grid article:last-child {
-    width: 100%;
-    grid-column: auto;
-  }
 
   .proof-grid article,
   .proof-grid article:nth-child(2n),
